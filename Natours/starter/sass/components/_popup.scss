@@ -51,6 +51,11 @@
         @include respond(tab-port) {
             display: block;
         }
+
+        @include respond(phone) {
+            width: 100%;
+            height: 100%;
+        }
     }
 
     &__left {
